@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(172, 240, 240);
+}
+h1{
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.flex-container {
+        display: flex;
+        margin-left: 35%;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(225, 241, 84);
+}  
+
+.flex-child:first-child {
+    margin-right: 10px;
+} 
+.flex-child2{
+    margin-left: 20%;
+    margin-bottom: 8%;
+    margin-top: 5%;
+   
+}
+.btn{
+    background-color: rgb(131, 224, 151);
+    margin-top: 2%;
+    margin-left: 35%;
+   
+}
+#bton{
+    background-color: rgb(131,224,151);
+   
+    margin-left: 10%;
+    margin-top: 2%;
+}
